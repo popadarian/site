@@ -1,0 +1,117 @@
+/* Resetare stiluri implicite */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stiluri generale */
+body {
+    font-family: 'Montserrat', sans-serif; /* Font personalizat */
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient modern */
+    color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0, 0, 0, 0.6); /* Fond semitransparent */
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 3em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+/* Secțiune principală */
+section {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+/* Secțiune Despre mine */
+.about-me {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.about-me h2 {
+    font-size: 2.5em;
+    color: #2575fc; /* Culoare pentru titlu */
+    margin-bottom: 20px;
+}
+
+.about-me p {
+    font-size: 1.2em;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #444;
+}
+
+/* Link Instagram */
+footer a {
+    color: #fe6e6e; /* Culoare modernă */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer a:hover {
+    color: #fff;
+    transform: scale(1.1); /* Efect de zoom la hover */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .about-me {
+        padding: 20px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
